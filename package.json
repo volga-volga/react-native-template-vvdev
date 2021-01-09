@@ -1,0 +1,8 @@
+{
+  "name": "react-native-vvdev-template",
+  "version": "0.0.1",
+  "description": "React Native Template",
+  "repository": "",
+  "author": "Nikita Sirotkin <ownikss@yandex.ru>",
+  "license": "MIT"
+}
