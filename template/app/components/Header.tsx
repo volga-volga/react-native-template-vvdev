@@ -2,9 +2,9 @@ import React from 'react';
 import {
   View, Text, ViewStyle, TouchableOpacity, StyleSheet, Platform, Dimensions,
 } from 'react-native';
-import { StyleGuide } from '../../resources/StyleGuide';
-import { ImageButton } from '../buttons/ImageButton';
-import { images } from '../../resources/images';
+import { StyleGuide } from '../resources/StyleGuide';
+import { ImageButton } from './buttons/ImageButton';
+import { images } from '../resources/images';
 
 const { width } = Dimensions.get('window');
 
