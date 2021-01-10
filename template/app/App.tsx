@@ -1,5 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { AppNavigator } from './navigation/AppNavigation';
 
 const styles = StyleSheet.create({
   text: {
@@ -41,11 +43,9 @@ export class App extends React.Component<{}, AppState> {
       return this.renderError();
     }
     return (
-      <View>
-        <Text>
-          App
-        </Text>
-      </View>
+      <SafeAreaProvider>
+        <AppNavigator />
+      </SafeAreaProvider>
     );
   }
 }
