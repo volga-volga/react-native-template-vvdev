@@ -2,6 +2,14 @@
 
 Template for initialization react-native project.
 
+## How to use
+
+To init project use command:
+
+```
+npx react-native init ProjectName --template=react-native-vvdev-template
+```
+
 ## Stack
 
 - **typescript**, **eslint** and precommit with **husky**
