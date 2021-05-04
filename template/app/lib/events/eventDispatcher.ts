@@ -10,7 +10,7 @@ export class EventDispatcher {
     [AppEvents.LOGOUT]: [],
   }
 
-  private static instance = new EventDispatcher();
+  static readonly instance = new EventDispatcher();
 
   constructor() {
     return EventDispatcher.instance;

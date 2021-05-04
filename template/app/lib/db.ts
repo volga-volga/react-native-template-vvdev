@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 const TOKEN = 'token';
 
-export default class DB {
+class DB {
   private parseStoredItem(item: null | string) {
     if (item === null) {
       return undefined;
@@ -27,3 +27,5 @@ export default class DB {
     }
   }
 }
+
+export default new DB();

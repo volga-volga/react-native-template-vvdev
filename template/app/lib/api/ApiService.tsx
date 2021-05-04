@@ -1,7 +1,7 @@
 import { RestApiHelper, Config } from 'rest-api-helper';
 import { AvailableRequest, config } from './apiConfig';
 
-export class ApiService {
+class ApiService {
   private baseURL: string = '';
 
   config: Config;
@@ -34,3 +34,5 @@ export class ApiService {
     return response.body.securityToken.token;
   }
 }
+
+export const Api = new ApiService();
